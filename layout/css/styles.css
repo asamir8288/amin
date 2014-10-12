@@ -1,0 +1,369 @@
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+} 
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+
+    .desktop-only {
+        display:none !important;
+    }
+}
+.logo{
+    margin-top: 20px;
+}
+.inner-page{
+    margin-top: 20px;
+}
+.image-placeholder{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;	
+    z-index: -1;
+    background: 0px 60px url(../images/home_image.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.main-menu{
+    margin-top: 30px;	
+}
+.main-menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;	
+}
+.menu-placeholder{
+    position: relative;
+}
+.main-menu ul li#cv{
+    background: url("../images/menu_icon(1).jpg") no-repeat;
+    width: 117px;
+    height: 120px;
+    color: #f2c1a2;
+    text-align: center;
+    padding-top: 120px;
+    position: absolute;	
+    left: 300px;
+}
+.main-menu ul li#about{	
+    background: url("../images/menu_icon(2).jpg") no-repeat;
+    width: 93px;
+    height: 100px;
+    color: #baeef8;
+    text-align: center;
+    padding-top: 95px;
+    position: absolute;	
+    left: 150px;
+    top: 80px;
+}
+.main-menu ul li#gallery{
+    background: url("../images/menu_icon(3).jpg") no-repeat;
+    width: 178px;
+    height: 185px;
+    color: #edabbc;
+    text-align: center;
+    padding-top: 180px;
+    position: absolute;	
+    left: 350px;
+    top: 180px;
+}
+.main-menu ul li#portfolio{
+    background: url("../images/menu_icon(4).jpg") no-repeat;
+    width: 130px;
+    height: 140px;
+    color: #b6e3a1;
+    text-align: center;
+    padding-top: 135px;
+    position: absolute;	
+    left: 170px;
+    top: 230px;
+}
+.main-menu ul li#contact{
+    background: url("../images/menu_icon(5).jpg") no-repeat;
+    width: 96px;
+    height: 105px;
+    color: #c8b5bf;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;	
+    left: 350px;
+    top: 400px;
+}
+.inner-logo{
+    padding-right:0px;
+    margin-top: 15px;
+    width: 300px;
+}
+.current-page{
+    padding:0px;
+}
+.current-page div#gallery{
+    background: url("../images/gallery (1).png") no-repeat;
+    width: 92px;
+    height: 92px;
+    color: #edabbc;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.current-page div#portfolio{
+    background: url("../images/portfolio (1).png") no-repeat;
+    width: 92px;
+    height: 92px;
+    color: #b6e3a1;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.socials{
+    width: 280px;
+}
+.socials ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    margin-top: 25px;
+}
+.socials ul li{
+    float: left;
+    margin: 0px 3px;
+}
+.socials ul li#linkedin{
+    background: url("../images/social.png") no-repeat;
+    width: 39px;
+    height: 39px;
+}
+.socials ul li#play{
+    background: -46px 0px url("../images/social.png") no-repeat;
+    width: 39px;
+    height: 39px;
+}
+.socials ul li#pin{
+    background: -93px 0px url("../images/social.png") no-repeat;
+    width: 39px;
+    height: 39px;
+}
+.socials ul li#fb{
+    background: -139px 0px url("../images/social.png") no-repeat;
+    width: 39px;
+    height: 39px;
+}
+.socials ul li#twitter{
+    background: -185px 0px url("../images/social.png") no-repeat;
+    width: 39px;
+    height: 39px;
+}
+.inner-menu ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    float: right;
+}
+.inner-menu li{
+    float: left;
+    margin: 0px 20px;
+}
+.inner-menu a:last-child li{
+    margin-right: 0px;
+}
+.inner-menu li#cv{
+    background: url("../images/cv.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    color: #f2c1a2;
+    text-align: center;
+    padding-top: 70px;	
+    font-size: 12px;
+}
+.inner-menu li#about{
+    background: url("../images/about.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    color: #baeef8;
+    text-align: center;
+    padding-top: 70px;	
+    font-size: 12px;
+}
+.inner-menu li#portfolio{
+    background: url("../images/portfolio.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    color: #b6e3a1;
+    text-align: center;
+    padding-top: 70px;	
+    font-size: 12px;
+}
+.inner-menu li#contact{
+    background: url("../images/contact.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    color: #c8b5bf;
+    text-align: center;
+    padding-top: 70px;	
+    font-size: 12px;
+}
+.pink-strip{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #edabbc;
+}
+.green-strip{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b6e3a1;
+}
+.grey-strip{
+    border-bottom: 5px solid #ebebeb;
+    margin-top: 1px;	
+}
+.gallery-container{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 23px;
+    margin-right: 0px;
+}
+.portfolio-container{
+    margin-top: 15px;
+    margin-bottom: 23px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.gallery-image{
+    margin-bottom: 20px;
+    float: left;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+.gallery-container .item:hover .gallery-image{
+    z-index: 1;
+    /*	-webkit-transform: rotate(0deg) scale(1.10);
+            -moz-transform: rotate(0deg) scale(1.10);
+            -o-transform: rotate(0deg) scale(1.10);
+            transform: rotate(0deg) scale(1.10);*/
+}
+.gallery-container .item:hover .inner-desc{	
+    opacity: 0.6;
+    filter:alpha(opacity = 60);	
+}
+.gallery-container a{
+    position: relative;
+}
+.gallery-container a .inner-desc{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;	
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    padding:10px;
+    vertical-align: text-bottom;
+    color: #000;
+}
+.portfolio-item{
+    width: 270px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.item-content{
+    background: #f2f2f2;
+    padding:10px;
+    color: #000;
+    padding-bottom: 20px;	
+}
+.portfolio-item img{
+    background: #f2f2f2;
+    text-align: center;
+}
+.item-content p{
+    padding: 0px;
+    margin: 0px;
+}
+.item-content h2{
+    font-size: 18px;
+}
+.item-content .heading{
+    border-bottom: 1px dashed #b5b5b5;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+.item-content .place, .item-content .date{
+    font-style: italic;
+}
+.item-content .details{
+    color: #575757;
+    font-size: 13px;
+}
+.more-info{
+    background: #dcdcdc;
+    text-align: center;
+    line-height: 40px;
+}
+.more-info a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.more-info:hover{
+    background: #b6e3a1;	
+}
+.more-info:hover a{
+    color: #fff;
+    text-decoration: none;
+}
+.button-group{
+    border-bottom: 2px solid #ebebeb;	
+    padding:10px; 		
+    padding-left: 80px;
+}
+.button-group button{
+    border:none;
+    padding:5px;
+    background: #b6e3a1;
+    color: #fff;
+}
+
+.select {
+    border: 0 !important;  /*Removes border*/
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    background: #f9f9f9 url(../images/select-arrow.png) no-repeat 93% center;
+    width: 250px; /*Width of select dropdown to give space for arrow image*/
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+    color: #777;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: inset 0 0 5px #efefef;
+}
+
+.go-btn {
+	background: none;
+        border: none;
+	background-image: url(../images/go-btn.png);
+	background-position: 0px -30px;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;	
+	position: relative;
+	top: 0px;	
+	cursor: pointer;
+}
+.go-btn:hover {
+	background-position: 0px 0px;	
+}
+
+.filter {
+    background-color: #b6e3a1;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #FFF;
+    clear: left;
+    margin-left: 10px;
+}

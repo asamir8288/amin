@@ -43,10 +43,10 @@
                 <div class="col-md-4">
                     <div class="inner-menu">
                         <ul>
-                            <a href="cv.html"><li id="cv">CV</li></a>
-                            <a href="about.html"><li id="about">about me</li></a>
-                            <a href="portfolio.html"><li id="portfolio">portfolio</li></a>
-                            <a href="contact.html"><li id="contact">contact me</li></a>
+                            <a href="<?php echo base_url(); ?>cv"><li id="cv">CV</li></a>
+                            <a href="<?php echo base_url(); ?>about_me"><li id="about">about me</li></a>
+                            <a href="<?php echo base_url(); ?>portfolio"><li id="portfolio">portfolio</li></a>
+                            <a href="<?php echo base_url(); ?>contact_us"><li id="contact">contact me</li></a>
                         </ul>
                     </div>
                 </div>
